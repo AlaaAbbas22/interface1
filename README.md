@@ -1,12 +1,16 @@
 # BananAI
 
-<video src="https://github.com/user-attachments/assets/02f6c4ca-5929-44c0-8df8-65a35f3992b4" width="352" height="720" alt="demo"></video>
-
+<div align="center">
+  <video width="640" height="360" autoplay loop muted playsinline>
+    <source src="image/README/17.04.2025_11.09.21_REC.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
 
 Repo Structure:
 
 1. `client` is the directory of the web application
-2. `server` is the old backend server we used. ***It is no longer in user, just there for the records.***
+2. `old server` is the old backend server we used. ***It is no longer in user, just there for the records.***
 3. `HF` is the model hosted on gradio.
 4. `image` just has the images in the README.
 
@@ -48,6 +52,8 @@ Ensure you have the following installed:
 
    The application should now be running at `http://localhost:3000`.
 
+
 ## Notes
 
 - The `server` directory is no longer used, as we have migrated backend functionality to Next.js API routes.
+- Note that you need a `.env` file with a structure similar to the one in `client\env.example`
